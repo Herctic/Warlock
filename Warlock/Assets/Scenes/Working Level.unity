@@ -3663,7 +3663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Type: {fileID: 11400000, guid: 9c735e67aa6215240940ff57b7665829, type: 2}
   ID: 0
-  weaponHelp: 234
+  weaponHelp: 203
 --- !u!114 &97318208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6600,7 +6600,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400006, guid: 5079c4771b9bebe4f926becab4b9acaa, type: 2}
       propertyPath: m_Item.helpbox
-      value: 171
+      value: 161
       objectReference: {fileID: 0}
     - target: {fileID: 11400006, guid: 5079c4771b9bebe4f926becab4b9acaa, type: 2}
       propertyPath: m_Recipient.helpbox
@@ -73530,7 +73530,7 @@ MonoBehaviour:
     IfOutOfAmmo: 1
     IfNotPresent: 1
     FirstTimeOnly: 1
-    helpbox: 87
+    helpbox: 77
   m_Misc:
     ResetOnRespawn: 1
 --- !u!114 &1682573280
