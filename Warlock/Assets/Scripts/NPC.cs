@@ -5,14 +5,16 @@ using UnityEngine.AI;
 
 public class NPC : MonoBehaviour {
 
-	// Use this for initialization
+    // Use this for initialization
 
-	public GameObject[] targets;
+    public GameObject[] targets;
+    public bool spiderTrigger;
+    public GameObject player;
+    private bool trigger = true;
 	private int currentTarget;
 	private int nextTarget;
 
 	private NavMeshAgent me;
-	public float speed;
 
 	void Start () {
 		
@@ -22,27 +24,42 @@ public class NPC : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-		speed = me.velocity.magnitude;
-		me.destination = targets[currentTarget].transform.position;
+        if (spiderTrigger)
+        {
+            if (trigger)
+            {
+                me.speed = me.speed * 3;
+                GetComponent<Animator>().SetBool("trigger", true);
+                trigger = false;
+            }
+            me.destination = player.transform.position;
 
-		if (Vector3.Distance(transform.position, targets[currentTarget].transform.position) == 0)
-		{
-			GetComponent<Animator>().SetBool("Walking", false);
+        }
+        else
+        {
+            //speed = me.velocity.magnitude;
+            me.destination = targets[currentTarget].transform.position;
 
-		}
+            if (Vector3.Distance(me.transform.position, targets[currentTarget].transform.position) <= 1)
+            {
+                //GetComponent<Animator>().SetBool("Walking", false);
+                ProgressToNext();
 
+            }
+        }
 
 	}
 	public void ProgressToNext()
 	{
 
-		GetComponent<Animator>().SetBool("Walking", true);
+		//GetComponent<Animator>().SetBool("Walking", true);
 		nextTarget = Random.Range(0, targets.Length);
 		while(nextTarget == currentTarget)
 		{
 			nextTarget = Random.Range(0, targets.Length);
 		}
+
+        currentTarget = nextTarget;
 
 		// if(currentTarget >= targets.Length)
 		// {
@@ -50,4 +67,7 @@ public class NPC : MonoBehaviour {
 		// }
 
 	}
+
 }
+    
+
