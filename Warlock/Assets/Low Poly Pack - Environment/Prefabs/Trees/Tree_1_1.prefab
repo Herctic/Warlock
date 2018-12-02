@@ -21,13 +21,14 @@ GameObject:
   - component: {fileID: 4466291554979346}
   - component: {fileID: 33443031687732088}
   - component: {fileID: 23802601510184938}
-  - component: {fileID: 65881320462754578}
+  - component: {fileID: 64427873775504510}
+  - component: {fileID: 114421340643898396}
   m_Layer: 0
   m_Name: Tree_1_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4466291554979346
 Transform:
@@ -35,13 +36,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1104701270810844}
-  m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.3267532, y: -0.6247549, z: 0.3880584, w: 0.5935691}
+  m_LocalPosition: {x: -27.917002, y: -15.655909, z: -14.204691}
+  m_LocalScale: {x: 1.8534008, y: 1.8534002, z: 1.853401}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 5.565, y: -89.665, z: 60.818005}
 --- !u!23 &23802601510184938
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -84,8 +85,8 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1104701270810844}
   m_Mesh: {fileID: 4300000, guid: 90682ac44015dbf44b345f37bdac3829, type: 3}
---- !u!65 &65881320462754578
-BoxCollider:
+--- !u!64 &64427873775504510
+MeshCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -93,6 +94,23 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.6587509, y: 3.6373012, z: 0.64015484}
-  m_Center: {x: -0.07323688, y: 1.8186506, z: -0.24171948}
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 90682ac44015dbf44b345f37bdac3829, type: 3}
+--- !u!114 &114421340643898396
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1104701270810844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37b7f2a39b3cf214485b1306b4be5ef7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SurfaceType: {fileID: 11400000, guid: 224e2e434f2b98847a307c7d6734ab31, type: 2}
+  AllowDecals: 1
+  SurfaceID: 0
+  surfaceTypeHelp: 176

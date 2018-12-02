@@ -22,12 +22,14 @@ GameObject:
   - component: {fileID: 33254490336658532}
   - component: {fileID: 23163565385363556}
   - component: {fileID: 65469680356456988}
+  - component: {fileID: 65242941480965766}
+  - component: {fileID: 114937206974299002}
   m_Layer: 0
   m_Name: Stump_1_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4383008251242006
 Transform:
@@ -36,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1773871323766460}
   m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 4.203766, y: -15.375908, z: -0.28320503}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,6 +86,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1773871323766460}
   m_Mesh: {fileID: 4300000, guid: 787a06979db004a44aebab09f5cbb10f, type: 3}
+--- !u!65 &65242941480965766
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1773871323766460}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.8361229, y: 0.5024448, z: 0.72410375}
+  m_Center: {x: 0, y: 0.25122193, z: 0}
 --- !u!65 &65469680356456988
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -96,3 +110,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.8361229, y: 0.5024448, z: 0.72410375}
   m_Center: {x: 0, y: 0.25122193, z: 0}
+--- !u!114 &114937206974299002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1773871323766460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37b7f2a39b3cf214485b1306b4be5ef7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SurfaceType: {fileID: 11400000, guid: 224e2e434f2b98847a307c7d6734ab31, type: 2}
+  AllowDecals: 1
+  SurfaceID: 0
+  surfaceTypeHelp: 176
