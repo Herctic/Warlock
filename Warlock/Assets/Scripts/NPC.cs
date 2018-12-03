@@ -8,9 +8,10 @@ public class NPC : MonoBehaviour {
     // Use this for initialization
 
     public GameObject[] targets;
-    public bool spiderTrigger;
+    public bool areaTrigger;
+    public bool isCollide;
     public GameObject player;
-    private bool trigger = true;
+    private bool notTriggered = true;
 	private int currentTarget;
 	private int nextTarget;
 
@@ -24,13 +25,13 @@ public class NPC : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (spiderTrigger)
+        if (areaTrigger)
         {
-            if (trigger)
+            if (notTriggered)
             {
                 me.speed = me.speed * 3;
                 GetComponent<Animator>().SetBool("trigger", true);
-                trigger = false;
+                notTriggered = false;
             }
             me.destination = player.transform.position;
 
@@ -67,6 +68,21 @@ public class NPC : MonoBehaviour {
 		// }
 
 	}
+
+    public void DoDamage()
+    {
+
+        if (isCollide)
+        {
+            vp_LocalPlayer.Damage(1);
+        }
+
+
+    }
+
+   
+
+
 
 }
     

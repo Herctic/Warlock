@@ -15,9 +15,9 @@ public class SpiderTrigger : MonoBehaviour {
         NPC s2 = spider2.GetComponent<NPC>();
         NPC s3 = spider3.GetComponent<NPC>();
 
-        s1.spiderTrigger = true;
-        s2.spiderTrigger = true;
-        s3.spiderTrigger = true;
+        s1.areaTrigger = true;
+        s2.areaTrigger = true;
+        s3.areaTrigger = true;
 
         Destroy(gameObject);
 
