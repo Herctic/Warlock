@@ -19,7 +19,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4641752245922808}
-  - component: {fileID: 114452797473529746}
   m_Layer: 0
   m_Name: Fence_4_3
   m_TagString: Untagged
@@ -38,6 +37,7 @@ GameObject:
   - component: {fileID: 33551603108970268}
   - component: {fileID: 23317130246821126}
   - component: {fileID: 65211670684754542}
+  - component: {fileID: 114850800855993614}
   m_Layer: 0
   m_Name: Fence_4_3
   m_TagString: Untagged
@@ -56,6 +56,7 @@ GameObject:
   - component: {fileID: 33600862014351824}
   - component: {fileID: 23800920140047050}
   - component: {fileID: 65896210404164550}
+  - component: {fileID: 114918815793671138}
   m_Layer: 0
   m_Name: Fence
   m_TagString: Untagged
@@ -74,6 +75,7 @@ GameObject:
   - component: {fileID: 33900898586725972}
   - component: {fileID: 23919850979853298}
   - component: {fileID: 65970885924569796}
+  - component: {fileID: 114169912476284130}
   m_Layer: 0
   m_Name: Fence 1
   m_TagString: Untagged
@@ -113,8 +115,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1304865739869506}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 61.632072, y: -12.062583, z: 40.51893}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 85.52207, y: -12.062583, z: 40.728928}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 4208132443883422}
@@ -298,12 +300,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.066593826, y: 1.2000003, z: 1.6579907}
   m_Center: {x: -0.89569914, y: 0.60000014, z: -0.050000995}
---- !u!114 &114452797473529746
+--- !u!114 &114169912476284130
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1304865739869506}
+  m_GameObject: {fileID: 1662210023817902}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37b7f2a39b3cf214485b1306b4be5ef7, type: 3}
@@ -312,4 +314,34 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: 224e2e434f2b98847a307c7d6734ab31, type: 2}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 176
+  surfaceTypeHelp: 161
+--- !u!114 &114850800855993614
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1402160511580216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37b7f2a39b3cf214485b1306b4be5ef7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SurfaceType: {fileID: 11400000, guid: 224e2e434f2b98847a307c7d6734ab31, type: 2}
+  AllowDecals: 1
+  SurfaceID: 0
+  surfaceTypeHelp: 161
+--- !u!114 &114918815793671138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1402710542346814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37b7f2a39b3cf214485b1306b4be5ef7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SurfaceType: {fileID: 11400000, guid: 224e2e434f2b98847a307c7d6734ab31, type: 2}
+  AllowDecals: 1
+  SurfaceID: 0
+  surfaceTypeHelp: 161
