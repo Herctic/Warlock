@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -26,6 +26,8 @@ MonoBehaviour:
     SurfaceEffect: {fileID: 11400000, guid: ebf0870236a05824485933944a281e67, type: 2}
   - ImpactEvent: {fileID: 11400000, guid: 5c22d075508c16a4fbfb9736b15913ff, type: 2}
     SurfaceEffect: {fileID: 11400000, guid: 41213e3e494c45046bd64d32eb0072dd, type: 2}
+  - ImpactEvent: {fileID: 11400000, guid: d42e68348cebb9448ae46b02ecb38231, type: 2}
+    SurfaceEffect: {fileID: 11400000, guid: df6ed91daf79f994b988c01ca4099ca9, type: 2}
   itemTypeHelp: 139
   AllowFootprints: 0
-  footPrintHelp: 139
+  footPrintHelp: 150

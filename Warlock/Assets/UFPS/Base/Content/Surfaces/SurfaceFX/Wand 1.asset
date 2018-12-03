@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0a91dd5f59d0fb4eaf0c5bb45ac3651, type: 3}
+  m_Name: Wand 1
+  m_EditorClassIdentifier: 
+  Sound:
+    m_Sounds:
+    - {fileID: 8300000, guid: 7dfa175a921e64147b58aef369697d54, type: 3}
+    MinPitch: 0.8
+    MaxPitch: 1
+    MaxOnePerFrame: 0
+    soundsHelp: 128
+  Objects:
+    m_Objects:
+    - Prefab: {fileID: 173682, guid: 642d8f6f41474544b9cf7cb8c8f65772, type: 2}
+      Probability: 1
+    objectsHelp: 73
+  Decal:
+    m_Prefabs:
+    - {fileID: 161520, guid: 6eb8bfabf8e3b0b468999c810d5f2096, type: 2}
+    prefabsHelp: 139
+    MinScale: 1
+    MaxScale: 1
+    AllowEdgeOverlap: 0.5
+    edgeOverlapHelp: 161
+  surfaceEffectHelp: 150
