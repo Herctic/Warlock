@@ -158,7 +158,7 @@ MonoBehaviour:
   DamageMethodName: Damage
   ScanType: 0
   ImpactEvent: {fileID: 11400000, guid: d42e68348cebb9448ae46b02ecb38231, type: 2}
-  hitscanBulletHelp: 100
+  hitscanBulletHelp: 119
 --- !u!1002 &11400001
 EditorExtensionImpl:
   serializedVersion: 6

@@ -22,13 +22,13 @@ MonoBehaviour:
     m_Objects:
     - Prefab: {fileID: 173682, guid: 642d8f6f41474544b9cf7cb8c8f65772, type: 2}
       Probability: 1
-    objectsHelp: 73
+    objectsHelp: 82
   Decal:
     m_Prefabs:
     - {fileID: 0}
-    prefabsHelp: 139
+    prefabsHelp: 155
     MinScale: 1
     MaxScale: 1
     AllowEdgeOverlap: 0.5
-    edgeOverlapHelp: 161
-  surfaceEffectHelp: 150
+    edgeOverlapHelp: 197
+  surfaceEffectHelp: 176
