@@ -162,7 +162,7 @@ MonoBehaviour:
   DamageMethodName: Damage
   ScanType: 0
   ImpactEvent: {fileID: 11400000, guid: d42e68348cebb9448ae46b02ecb38231, type: 2}
-  hitscanBulletHelp: 100
+  hitscanBulletHelp: 87
 --- !u!1002 &11400001
 EditorExtensionImpl:
   serializedVersion: 6
@@ -372,7 +372,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1586637124128118}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.194, y: 1.215, z: 0.688}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4402649051269420}
