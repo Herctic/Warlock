@@ -18,7 +18,7 @@ MonoBehaviour:
   Space: 1
   itemTypeHelp: 183
   Unit: {fileID: 11400000, guid: 2dc1e3699faf60a42bbd94139d036899, type: 2}
-  Capacity: 100
+  Capacity: 1
   Reloadable: 1
   RemoveWhenDepleted: 0
   h3: 199
