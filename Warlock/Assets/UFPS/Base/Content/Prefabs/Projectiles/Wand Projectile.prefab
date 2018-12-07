@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 11400000}
   - component: {fileID: 8200000}
   - component: {fileID: 114339565930914662}
-  - component: {fileID: 54085061087421720}
-  - component: {fileID: 114858065887446652}
   m_Layer: 0
   m_Name: Wand Projectile
   m_TagString: Untagged
@@ -150,7 +148,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8745425c2759f946aa5fd67025cc099, type: 3}
   m_Name: 
@@ -437,21 +435,6 @@ Transform:
   m_Father: {fileID: 4634631546577484}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!54 &54085061087421720
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 2
 --- !u!82 &82730376737999128
 AudioSource:
   m_ObjectHideFlags: 1
@@ -693,7 +676,7 @@ MonoBehaviour:
   RespawnCheckRadius: -99999
   RespawnSound: {fileID: 0}
   DeathEffect: {fileID: 0}
-  helpbox: 95
+  helpbox: 82
 --- !u!114 &114413671948939956
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -878,20 +861,6 @@ MonoBehaviour:
   DestroyAfterDisabling: 0
   HUE: -1
   CollidedInstances: []
---- !u!114 &114858065887446652
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e520bfeba158d6419294d08ff8abe20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LifeTime: 4
-  RigidbodyForce: 10
-  RigidbodySpin: 0
 --- !u!114 &114910396796225354
 MonoBehaviour:
   m_ObjectHideFlags: 1
