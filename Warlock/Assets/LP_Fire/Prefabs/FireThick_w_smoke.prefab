@@ -10,6 +10,8 @@ GameObject:
   - component: {fileID: 472404}
   - component: {fileID: 19862052}
   - component: {fileID: 19968048}
+  - component: {fileID: 135313091218239290}
+  - component: {fileID: 114012137681540314}
   m_Layer: 8
   m_Name: FireThick_w_smoke
   m_TagString: Untagged
@@ -75,7 +77,7 @@ Transform:
   m_GameObject: {fileID: 174282}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.03, z: 0.11}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.2704, y: 2.2704, z: 2.2704}
   m_Children: []
   m_Father: {fileID: 472404}
   m_RootOrder: 0
@@ -99,8 +101,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 109254}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.010498047, y: 0.13, z: -0.019958496}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 18.715252, y: -28.561913, z: -96.45375}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 416138}
@@ -117,7 +119,7 @@ Transform:
   m_GameObject: {fileID: 131040}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.73000014}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.8143, y: 1.8143, z: 1.8143}
   m_Children: []
   m_Father: {fileID: 472404}
   m_RootOrder: 2
@@ -441,7 +443,7 @@ ParticleSystem:
         m_RotationOrder: 0
     startSizeY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -494,7 +496,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeZ:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -5281,7 +5283,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotationX:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -5334,7 +5336,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotationY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -14279,3 +14281,26 @@ Prefab:
   m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 109254}
   m_IsPrefabAsset: 1
+--- !u!114 &114012137681540314
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ad25b94a99824c31b2f0fa885f2bf95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!135 &135313091218239290
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.46
+  m_Center: {x: 0, y: -0.00000002980233, z: 0.2062519}
