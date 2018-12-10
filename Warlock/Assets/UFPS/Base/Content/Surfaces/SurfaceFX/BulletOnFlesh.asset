@@ -14,6 +14,7 @@ MonoBehaviour:
   Sound:
     m_Sounds:
     - {fileID: 8300000, guid: 0405e24c9af9fce44b774de2c723967a, type: 3}
+    - {fileID: 8300000, guid: 89e625f99e2f6cb478132d3d19b132a2, type: 3}
     MinPitch: 0.8
     MaxPitch: 1
     MaxOnePerFrame: 0
@@ -29,5 +30,5 @@ MonoBehaviour:
     MinScale: 1
     MaxScale: 1
     AllowEdgeOverlap: 0.5
-    edgeOverlapHelp: 161
+    edgeOverlapHelp: 172
   surfaceEffectHelp: 150
