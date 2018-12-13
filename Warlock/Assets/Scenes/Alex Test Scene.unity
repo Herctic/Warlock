@@ -253,6 +253,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.3235686
       objectReference: {fileID: 0}
+    - target: {fileID: 114602582556105138, guid: bec7eb1ed70714543a51b9038a2323c2,
+        type: 2}
+      propertyPath: surfaceTypeHelp
+      value: 176
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bec7eb1ed70714543a51b9038a2323c2, type: 2}
   m_IsPrefabAsset: 0
@@ -280,7 +285,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: 29f4bfb7c63739e4483ee47eef5513e3, type: 2}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 161
+  surfaceTypeHelp: 176
 --- !u!65 &5450602
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5017,7 +5022,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: 29f4bfb7c63739e4483ee47eef5513e3, type: 2}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 161
+  surfaceTypeHelp: 176
 --- !u!65 &120893473
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5116,7 +5121,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: 29f4bfb7c63739e4483ee47eef5513e3, type: 2}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 161
+  surfaceTypeHelp: 176
 --- !u!65 &121934202
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37832,7 +37837,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: 29f4bfb7c63739e4483ee47eef5513e3, type: 2}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 161
+  surfaceTypeHelp: 176
 --- !u!65 &691260958
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38699,18 +38704,6 @@ Prefab:
       propertyPath: m_Name
       value: Large_Grass_Cluster_Group_1A1 (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 4312233075507066, guid: bec7eb1ed70714543a51b9038a2323c2, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1.3235681
-      objectReference: {fileID: 0}
-    - target: {fileID: 4312233075507066, guid: bec7eb1ed70714543a51b9038a2323c2, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1.3235682
-      objectReference: {fileID: 0}
-    - target: {fileID: 4312233075507066, guid: bec7eb1ed70714543a51b9038a2323c2, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1.3235681
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bec7eb1ed70714543a51b9038a2323c2, type: 2}
   m_IsPrefabAsset: 0
@@ -38719,38 +38712,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4312233075507066, guid: bec7eb1ed70714543a51b9038a2323c2,
     type: 2}
   m_PrefabInternal: {fileID: 703129947}
---- !u!1 &703129949 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1555179928384816, guid: bec7eb1ed70714543a51b9038a2323c2,
-    type: 2}
-  m_PrefabInternal: {fileID: 703129947}
---- !u!114 &703129950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 703129949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37b7f2a39b3cf214485b1306b4be5ef7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SurfaceType: {fileID: 11400000, guid: 29f4bfb7c63739e4483ee47eef5513e3, type: 2}
-  AllowDecals: 1
-  SurfaceID: 0
-  surfaceTypeHelp: 161
---- !u!65 &703129951
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 703129949}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &705698916
 Prefab:
   m_ObjectHideFlags: 0
@@ -41245,7 +41206,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: 29f4bfb7c63739e4483ee47eef5513e3, type: 2}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 161
+  surfaceTypeHelp: 176
 --- !u!65 &758102307
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47004,6 +46965,11 @@ Prefab:
     - target: {fileID: 4312233075507066, guid: bec7eb1ed70714543a51b9038a2323c2, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.3235681
+      objectReference: {fileID: 0}
+    - target: {fileID: 114602582556105138, guid: bec7eb1ed70714543a51b9038a2323c2,
+        type: 2}
+      propertyPath: surfaceTypeHelp
+      value: 176
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bec7eb1ed70714543a51b9038a2323c2, type: 2}
@@ -57822,7 +57788,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: 29f4bfb7c63739e4483ee47eef5513e3, type: 2}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 161
+  surfaceTypeHelp: 176
 --- !u!65 &1114474134
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75792,7 +75758,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: 29f4bfb7c63739e4483ee47eef5513e3, type: 2}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 161
+  surfaceTypeHelp: 176
 --- !u!65 &1454998083
 BoxCollider:
   m_ObjectHideFlags: 0

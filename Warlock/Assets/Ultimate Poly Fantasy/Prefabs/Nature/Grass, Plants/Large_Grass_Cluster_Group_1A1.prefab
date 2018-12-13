@@ -114,6 +114,8 @@ GameObject:
   - component: {fileID: 114291807646325626}
   - component: {fileID: 65877701238919302}
   - component: {fileID: 114771180120201044}
+  - component: {fileID: 65000969005538720}
+  - component: {fileID: 114602582556105138}
   m_Layer: 0
   m_Name: Large_Grass_Cluster_Group_1A1
   m_TagString: Untagged
@@ -335,7 +337,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1555179928384816}
   m_LocalRotation: {x: -0, y: -0.24040376, z: 0, w: 0.97067297}
-  m_LocalPosition: {x: -69.56196, y: 0.053542234, z: -43.573338}
+  m_LocalPosition: {x: -119.717674, y: 0.053542234, z: -37.768757}
   m_LocalScale: {x: 1.3235681, y: 1.3235682, z: 1.3235681}
   m_Children:
   - {fileID: 4720556342801464}
@@ -1183,6 +1185,18 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 5c6d066ce29ce0b459917dfa2c26b434, type: 3}
+--- !u!65 &65000969005538720
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1555179928384816}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65877701238919302
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -1190,8 +1204,8 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1555179928384816}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
+  m_IsTrigger: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1209,7 +1223,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: 29f4bfb7c63739e4483ee47eef5513e3, type: 2}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 161
+  surfaceTypeHelp: 176
 --- !u!114 &114511102574384850
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1231,6 +1245,21 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1149337254228228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37b7f2a39b3cf214485b1306b4be5ef7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SurfaceType: {fileID: 11400000, guid: 29f4bfb7c63739e4483ee47eef5513e3, type: 2}
+  AllowDecals: 1
+  SurfaceID: 0
+  surfaceTypeHelp: 161
+--- !u!114 &114602582556105138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1555179928384816}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37b7f2a39b3cf214485b1306b4be5ef7, type: 3}
@@ -1314,7 +1343,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: 29f4bfb7c63739e4483ee47eef5513e3, type: 2}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 161
+  surfaceTypeHelp: 176
 --- !u!114 &114926644148799602
 MonoBehaviour:
   m_ObjectHideFlags: 1
